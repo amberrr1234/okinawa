@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_474b9a7ab31ea08e2f41ee2e2bf871df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_474b9a7ab31ea08e2f41ee2e2bf871df" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_474b9a7ab31ea08e2f41ee2e2bf871df = L.map(
+                "map_474b9a7ab31ea08e2f41ee2e2bf871df",
+                {
+                    center: [26.3344, 127.8056],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_58f0654691cec5627abe6ee1d8edb3fd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var marker_c3c4071522b5701d852667b872f6a5ee = L.marker(
+                [26.1958, 127.646],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_d7f43d7f5f133ac0344e6d49c9ab0168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3029deb6e45c567d77f36091e086c12 = $(`<div id="html_e3029deb6e45c567d77f36091e086c12" style="width: 100.0%; height: 100.0%;">Naha Airport</div>`)[0];
+            popup_d7f43d7f5f133ac0344e6d49c9ab0168.setContent(html_e3029deb6e45c567d77f36091e086c12);
+        
+
+        marker_c3c4071522b5701d852667b872f6a5ee.bindPopup(popup_d7f43d7f5f133ac0344e6d49c9ab0168)
+        ;
+
+        
+    
+    
+            var marker_4becd1e0b4142de03cc426a920b55a54 = L.marker(
+                [26.1742, 127.6388],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_53af70f7c09b20b2f6feaa5436e9c6e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa1a151f3dac9fdeaffd01938bee6a64 = $(`<div id="html_fa1a151f3dac9fdeaffd01938bee6a64" style="width: 100.0%; height: 100.0%;">Senaga Island</div>`)[0];
+            popup_53af70f7c09b20b2f6feaa5436e9c6e9.setContent(html_fa1a151f3dac9fdeaffd01938bee6a64);
+        
+
+        marker_4becd1e0b4142de03cc426a920b55a54.bindPopup(popup_53af70f7c09b20b2f6feaa5436e9c6e9)
+        ;
+
+        
+    
+    
+            var marker_59ce55d164cc7f00fba686c6019a0d75 = L.marker(
+                [26.1188, 127.7202],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_aff62f8fd18b378ed235f753d03362c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac322443af600b85e046008ed96733b1 = $(`<div id="html_ac322443af600b85e046008ed96733b1" style="width: 100.0%; height: 100.0%;">Okinawa World</div>`)[0];
+            popup_aff62f8fd18b378ed235f753d03362c9.setContent(html_ac322443af600b85e046008ed96733b1);
+        
+
+        marker_59ce55d164cc7f00fba686c6019a0d75.bindPopup(popup_aff62f8fd18b378ed235f753d03362c9)
+        ;
+
+        
+    
+    
+            var marker_7750976ba33980d79700cbbb52b977b1 = L.marker(
+                [26.0835, 127.7173],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_b4c3e544879fb569e1879eaf97e195bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e960b28310077e32c449b7318c531fba = $(`<div id="html_e960b28310077e32c449b7318c531fba" style="width: 100.0%; height: 100.0%;">Peace Memorial Park</div>`)[0];
+            popup_b4c3e544879fb569e1879eaf97e195bf.setContent(html_e960b28310077e32c449b7318c531fba);
+        
+
+        marker_7750976ba33980d79700cbbb52b977b1.bindPopup(popup_b4c3e544879fb569e1879eaf97e195bf)
+        ;
+
+        
+    
+    
+            var marker_3c1301ba42f359c87804abb66fe3e0d6 = L.marker(
+                [26.6945, 127.878],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_143c7d5fec54defec431f8a78d4c0db9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5a5bfa2d213daf632637d8e6e5ac127 = $(`<div id="html_f5a5bfa2d213daf632637d8e6e5ac127" style="width: 100.0%; height: 100.0%;">Churaumi Aquarium</div>`)[0];
+            popup_143c7d5fec54defec431f8a78d4c0db9.setContent(html_f5a5bfa2d213daf632637d8e6e5ac127);
+        
+
+        marker_3c1301ba42f359c87804abb66fe3e0d6.bindPopup(popup_143c7d5fec54defec431f8a78d4c0db9)
+        ;
+
+        
+    
+    
+            var marker_029667bc783d5188add12ddebf856186 = L.marker(
+                [26.7239, 128.0358],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_5602471a74d4d3ff63cbe205531f35dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2586a258c231aa3016a73ea0b6bfd44e = $(`<div id="html_2586a258c231aa3016a73ea0b6bfd44e" style="width: 100.0%; height: 100.0%;">Kouri Island</div>`)[0];
+            popup_5602471a74d4d3ff63cbe205531f35dd.setContent(html_2586a258c231aa3016a73ea0b6bfd44e);
+        
+
+        marker_029667bc783d5188add12ddebf856186.bindPopup(popup_5602471a74d4d3ff63cbe205531f35dd)
+        ;
+
+        
+    
+    
+            var marker_6bfbe8bae0978504971b6c488a581005 = L.marker(
+                [26.6955, 127.935],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_ea0dbb41fcfa259f986051a726d6ced1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54f589404a4b41a6563754d2538f8cdb = $(`<div id="html_54f589404a4b41a6563754d2538f8cdb" style="width: 100.0%; height: 100.0%;">Nakijin Castle</div>`)[0];
+            popup_ea0dbb41fcfa259f986051a726d6ced1.setContent(html_54f589404a4b41a6563754d2538f8cdb);
+        
+
+        marker_6bfbe8bae0978504971b6c488a581005.bindPopup(popup_ea0dbb41fcfa259f986051a726d6ced1)
+        ;
+
+        
+    
+    
+            var marker_cfd84e8b51b499ee677c5095147184b3 = L.marker(
+                [26.7008, 127.8774],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_93868b20365095810872ab327f9d145c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e2e6b41f7cbe652dffd3bda8973c60 = $(`<div id="html_55e2e6b41f7cbe652dffd3bda8973c60" style="width: 100.0%; height: 100.0%;">Bise Fukugi Tree Road</div>`)[0];
+            popup_93868b20365095810872ab327f9d145c.setContent(html_55e2e6b41f7cbe652dffd3bda8973c60);
+        
+
+        marker_cfd84e8b51b499ee677c5095147184b3.bindPopup(popup_93868b20365095810872ab327f9d145c)
+        ;
+
+        
+    
+    
+            var marker_5d9708b120b916621c561d1019e0a860 = L.marker(
+                [26.5039, 127.853],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_71f131412035c9119f36688a6383fa45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_624220172dfb5c7cee2f52bfd3d617f7 = $(`<div id="html_624220172dfb5c7cee2f52bfd3d617f7" style="width: 100.0%; height: 100.0%;">Manza Beach (Manzamo)</div>`)[0];
+            popup_71f131412035c9119f36688a6383fa45.setContent(html_624220172dfb5c7cee2f52bfd3d617f7);
+        
+
+        marker_5d9708b120b916621c561d1019e0a860.bindPopup(popup_71f131412035c9119f36688a6383fa45)
+        ;
+
+        
+    
+    
+            var marker_35b2210d0b79db26188ce37453fc2fb8 = L.marker(
+                [26.3134, 127.7574],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_597c2623a3d8081a51f4258694886f7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4498cb97e722e49f17a8f85fc7cbe487 = $(`<div id="html_4498cb97e722e49f17a8f85fc7cbe487" style="width: 100.0%; height: 100.0%;">American Village</div>`)[0];
+            popup_597c2623a3d8081a51f4258694886f7b.setContent(html_4498cb97e722e49f17a8f85fc7cbe487);
+        
+
+        marker_35b2210d0b79db26188ce37453fc2fb8.bindPopup(popup_597c2623a3d8081a51f4258694886f7b)
+        ;
+
+        
+    
+    
+            var marker_d0b086f8fd3cc8c1f1be4ca800fed367 = L.marker(
+                [26.3345, 127.7995],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_89e3fe05ee917ebc6b57f668c0a79d02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18870b29b9fc6f3cb5a9a52b430ceeb5 = $(`<div id="html_18870b29b9fc6f3cb5a9a52b430ceeb5" style="width: 100.0%; height: 100.0%;">Plaza House Shopping Center</div>`)[0];
+            popup_89e3fe05ee917ebc6b57f668c0a79d02.setContent(html_18870b29b9fc6f3cb5a9a52b430ceeb5);
+        
+
+        marker_d0b086f8fd3cc8c1f1be4ca800fed367.bindPopup(popup_89e3fe05ee917ebc6b57f668c0a79d02)
+        ;
+
+        
+    
+    
+            var marker_be469ac56fba3a8bdc5afed09c5868de = L.marker(
+                [26.216, 127.669],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_6628702dc7c2ab759ae78ca6d492764f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a5d7f094b30579d38e551ec95d2053 = $(`<div id="html_28a5d7f094b30579d38e551ec95d2053" style="width: 100.0%; height: 100.0%;">Naminoue Shrine</div>`)[0];
+            popup_6628702dc7c2ab759ae78ca6d492764f.setContent(html_28a5d7f094b30579d38e551ec95d2053);
+        
+
+        marker_be469ac56fba3a8bdc5afed09c5868de.bindPopup(popup_6628702dc7c2ab759ae78ca6d492764f)
+        ;
+
+        
+    
+    
+            var marker_37088e7208b7bcb6f55c605f8bd1fe2f = L.marker(
+                [26.2174, 127.7196],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_17b1bda409037f827dae9eb394b54a3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f7536f707709791bafd925a58d1284c = $(`<div id="html_0f7536f707709791bafd925a58d1284c" style="width: 100.0%; height: 100.0%;">Shurijo Castle Park</div>`)[0];
+            popup_17b1bda409037f827dae9eb394b54a3a.setContent(html_0f7536f707709791bafd925a58d1284c);
+        
+
+        marker_37088e7208b7bcb6f55c605f8bd1fe2f.bindPopup(popup_17b1bda409037f827dae9eb394b54a3a)
+        ;
+
+        
+    
+    
+            var marker_a16fcddc13134e9b58cf42734972c9da = L.marker(
+                [26.2152, 127.6812],
+                {}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+        var popup_137b0956a271b774c252a401dea2dc4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ce5a03f3e2e44c571cfa18a32814b48 = $(`<div id="html_9ce5a03f3e2e44c571cfa18a32814b48" style="width: 100.0%; height: 100.0%;">Kokusai Street</div>`)[0];
+            popup_137b0956a271b774c252a401dea2dc4d.setContent(html_9ce5a03f3e2e44c571cfa18a32814b48);
+        
+
+        marker_a16fcddc13134e9b58cf42734972c9da.bindPopup(popup_137b0956a271b774c252a401dea2dc4d)
+        ;
+
+        
+    
+    
+            var poly_line_9d87d4e8c95f4adf5b6abe4727c673cd = L.polyline(
+                [[26.1958, 127.646], [26.1742, 127.6388]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var poly_line_d5876dcc6b42fdc55de301dc381c680a = L.polyline(
+                [[26.2152, 127.6812], [26.1188, 127.7202], [26.0835, 127.7173]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var poly_line_7e0d4cb98e875eb41948d5447c5ee18b = L.polyline(
+                [[26.2152, 127.6812], [26.6945, 127.878], [26.7239, 128.0358]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var poly_line_28022e7fd3ddbe1d5b79019b63edac4b = L.polyline(
+                [[26.6945, 127.878], [26.6955, 127.935], [26.7008, 127.8774], [26.5039, 127.853]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var poly_line_53a444b1b3f7013d5e58f3aded67e73a = L.polyline(
+                [[26.2152, 127.6812], [26.3134, 127.7574], [26.3345, 127.7995]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+    
+            var poly_line_a4ffd01a45fbce77ad533b6780f1db2b = L.polyline(
+                [[26.2152, 127.6812], [26.216, 127.669], [26.2174, 127.7196], [26.2152, 127.6812]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_474b9a7ab31ea08e2f41ee2e2bf871df);
+        
+</script>
+</html>
